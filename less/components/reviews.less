@@ -1,0 +1,55 @@
+.reviews {
+  h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: "ubuntu-r";
+    font-size: 26px;
+    line-height: 28px;
+    color: #5b919b;
+  }
+  .inbox {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: arial;
+    line-height: 20px;
+    color: #000;
+    span {
+    background-color:  #d9f0ef;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    background: #d9f0ef;
+    border: 1px solid #d9f0ef;
+    &:after, &:before {
+      top: 100%;
+      left: 10%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+    &:after {
+      border-color: rgba(136, 183, 213, 0);
+      border-top-color: #d9f0ef;
+      border-width: 5px;
+      margin-left: -5px;
+    }
+    &:before {
+      border-color: rgba(194, 225, 245, 0);
+      border-top-color: #d9f0ef;
+      border-width: 6px;
+      margin-left: -6px;
+    }
+  }
+    div {
+      margin-top: 15px;
+      font-family: arial;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      color: #777777;
+    }
+  }
+} 

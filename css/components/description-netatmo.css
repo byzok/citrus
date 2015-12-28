@@ -1,0 +1,41 @@
+.description-netatmo .main {
+  float: left;
+  text-align: right;
+}
+.description-netatmo .main p {
+  color: #9D9D9D;
+  font-family: "ubuntu-r";
+}
+.description-netatmo .text {
+  padding-left: 35px;
+  color: #4a4a4a;
+  font-family: tahoma;
+  font-size: 14px;
+  line-height: 22px;
+}
+.description-netatmo .text h2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "ubuntu-r";
+  font-size: 26px;
+  line-height: 28px;
+  color: #5b919b;
+}
+.description-netatmo .text .compatibility {
+  padding-top: 25px;
+  line-height: 17px;
+  font-size: 15px;
+  color: #5b919b;
+  font-family: "ubuntu-r";
+  text-transform: uppercase;
+}
+.description-netatmo .text p {
+  margin-bottom: 25px;
+}
+.description-netatmo .text .gadget img {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.description-netatmo .text .gadget .android {
+  margin-left: 10px;
+}
